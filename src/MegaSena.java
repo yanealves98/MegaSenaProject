@@ -7,9 +7,9 @@ public class MegaSena {
         Random generate = new Random();
 
         for (int i = 0; i <6; i++) {
-            
-            int number = generate.nextInt(  60);
 
+            int number = generate.nextInt(  60);
+            System.out.println("Teste");
             System.out.println(number);
         }
     }
